@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- 
+Tutorial: https://www.youtube.com/watch?v=zxxB9SFh9p4
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namora comigo?</title>
+</head>
+
+<body>
+    <div id="conteudo">
+        <h1>Aceita ficar comigo ?</h1>
+        <img src="data:image/png;base64,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" alt="">
+        <h2> renovar contrato mensal:</h2>
+        <div style="margin: auto;width: 170px;">
+            <button style="position: fixed;display: block;" class="btn" onclick="sim()">SIM</button>
+            <button class="btn" onclick="desvia(this)" onmouseover="desvia(this)" style="position: absolute;">NÃO</button>
+        </div>
+    </div>
+</body>
+<style>
+    #conteudo {
+        background: #ff7a7a;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .btn {
+        background: black;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 80px;
+        border-radius: 5px;
+    }
+</style>
+
+<script>
+    function sim() {
+        alert("Ebaaaaaaaa, vc é a mulher mais maravilhosa que eu conheço sabia ? agora vamos marcar direitinho nosso date, mas saiba que vc já conquistou o meu amor (e pfrv, use com moderação kkkkkkkkk). :)");
+        // redireciona para um URL após clicar no SIM
+        location.href = "https://music.youtube.com/watch?v=izGwDsrQ1eQ";
+    }
+
+    function desvia(btn) {
+        // btn declarado na função
+        btn.style.position = 'absolute';
+        btn.style.bottom = geraPosicao(10, 90);
+        btn.style.left = geraPosicao(10, 90);
+        console.log('opa, desviei...');
+    }
+
+    function geraPosicao(min, max) {
+        return (Math.random() * (max - min) + min) + "%";
+    }
+
+</script>
+
+</html>
